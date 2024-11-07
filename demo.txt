@@ -45,6 +45,8 @@ public static int add(String numbers)
 	}
 	System.out.println(sum);
 	System.out.println(error.length());
+	if(error.length()>0)
+		System.out.println("NEGITIVE NUMBERS ENTERED ARE "+error);
 	
 	return 0;
 	

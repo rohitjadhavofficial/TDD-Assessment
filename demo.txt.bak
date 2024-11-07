@@ -10,7 +10,7 @@ class test
 		
 	}	
 }
-class Abc 
+class demo 
 {
 public static int add(String numbers)
 {

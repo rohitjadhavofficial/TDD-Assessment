@@ -1,0 +1,32 @@
+package pratics.pratics;
+
+import org.junit.Test;
+
+class test
+{
+	@Test test t()
+	{
+		return null;
+		
+	}	
+}
+class Abc 
+{
+public static int add(String numbers)
+{
+	System.out.println(numbers);
+	
+	return 0;
+	
+}
+public static void main(String arr[])
+{
+	String input="abc//;\n1,2";
+	add(input);
+	
+	
+}
+	
+	
+
+}

@@ -18,7 +18,14 @@ public static int add(String numbers)
 	String[] data=numbers.split(String.valueOf(numbers.charAt(2)));
 	for(String x:data)
 	{
+		if(x.contains("\n"))
+		{
+			System.out.println("new line detect");
+			x=x.split("\n")[1];
+			
+		}
 		System.out.println(x);
+		
 		
 	}
 	

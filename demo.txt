@@ -1,0 +1,23 @@
+import org.junit.Test;
+
+class test
+{
+	@Test test t()
+	{
+		return null;
+		
+	}	
+}
+class DEMO 
+{
+
+public static void main(String arr[])
+{
+	
+	
+	
+}
+	
+	
+
+}

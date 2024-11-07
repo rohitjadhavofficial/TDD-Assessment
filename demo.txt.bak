@@ -14,14 +14,21 @@ class demo
 {
 public static int add(String numbers)
 {
-	System.out.println(numbers);
+	System.out.println(numbers.charAt(2));
+	String[] data=numbers.split(String.valueOf(numbers.charAt(2)));
+	for(String x:data)
+	{
+		System.out.println(x);
+		
+	}
+	
 	
 	return 0;
 	
 }
 public static void main(String arr[])
 {
-	String input="abc//;\n1,2";
+	String input="//;\n1,2";
 	add(input);
 	
 	
